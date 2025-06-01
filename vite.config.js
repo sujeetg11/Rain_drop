@@ -7,7 +7,7 @@ import { ghPages } from 'vite-plugin-gh-pages'
 
 export default defineConfig({
   plugins: [react(), ghPages()],
-  base: '/Rain_drop/',
+  base: '/Rain_drop',
   server: {
     port: 3000,
     open: true
